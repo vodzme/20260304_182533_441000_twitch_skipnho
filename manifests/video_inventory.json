@@ -1,0 +1,73 @@
+{
+    "folder": "20260304_182533_441000_twitch_skipnho",
+    "generated_at": "2026-05-18T23:25:33+00:00",
+    "source_video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "duration_seconds": 23044.165333,
+        "size_bytes": 18425182708,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "bitrate_kbps": 6396,
+        "format_name": "mpegts"
+    },
+    "video_output": {
+        "id": 97,
+        "uuid": null,
+        "format": "ts",
+        "totals": {
+            "size_bytes": 18425182708,
+            "duration_seconds": 23044.165333
+        },
+        "summary": {
+            "descriptors_count": 1,
+            "valid_segments_count": 1,
+            "invalid_segments_count": 0,
+            "partial": false
+        }
+    },
+    "segments": [
+        {
+            "attempt": 1,
+            "attempt_id": 113,
+            "file_name": "seg_0001.ts",
+            "relative_path": "2026_03_04_015645606_twitch_skipnho/seg_0001.ts",
+            "absolute_path": "/var/www/html/recorders/2026_03_04_015645606_twitch_skipnho/seg_0001.ts",
+            "size_bytes": 18425182708,
+            "format": "ts",
+            "duration_seconds": 23044.165333,
+            "validation": {
+                "ffprobe": {
+                    "streams_total": 3,
+                    "format_name": "mpegts",
+                    "duration": 23044.165333,
+                    "size": 18425182708
+                }
+            }
+        }
+    ],
+    "profiles": {
+        "base_quality": "1080p",
+        "base_slug": "1080",
+        "profiles": [
+            {
+                "quality": "1080p",
+                "slug": "1080",
+                "width": 1920,
+                "height": 1080
+            }
+        ]
+    },
+    "contract": {
+        "inputs": {
+            "video_segments_count": 1,
+            "video_output_id": 97,
+            "input_signature": "39f37fc860743ca0e86919ebb9531527e213cfbcb70cb4a2630596c765d0ca65"
+        },
+        "validations": {
+            "totals_size_bytes": 18425182708,
+            "totals_duration_seconds": 23044.165333
+        }
+    }
+}
